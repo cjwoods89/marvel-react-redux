@@ -1,0 +1,13 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
