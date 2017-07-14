@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: ARdZAgZ1g6aGKmcl9/Cm0jASAlkrtBTJZzYhMSVZOimqfCe+bTyVkrmO+29LuwokW/aJ1AZ5gxKVXcSTuyPi2KwGCSQ//2tU/8zpwXNjfWb7mhHh3Jw/gQxShkJohuySuQkgA0NrxxBjyHcUz5LGYXYbGw2BDnPlcl/+c/1b8wQ9Ej7XIN19CmQvj0QxG1TqGGaL4K+qbRPmUVMVJuyEhq68IxvnLzvMgw5YFi33XxV57bjTBtB+pw3gvBwDJvFGoZU4u1KG/AspBSbtiRpc9776x7CQxJHgvB0RuFwrZuQkvQNUF+FbDvq5z5k+XJWRGN7mZiKeWAeizv2GjLK/dE38HEv/cuJ/hB9l+Z3qiVlyc+FE6XZ/GqBQN5TkJIn5/PjiCd73z9Lqog/NqcEZYXB5k+d5Geu27gdWp1i7vQoCJmja/w31Sp3uXus+ZR224PpTyw7aLw6Gf0KG84g/JtMPAPVM5wtKj52gSvqBJOJJJwbeBF3LGl7WpDcooEsF29l/AaMlTNpuQij941XUFWLwAlxKhSIhhikmqTmPNztHVCmNBTI5h/bWbRpNrnXA3h0cUlqLShgSgwnUxY6/0j73loIUUi11YiJF1MAQvW7rD5MmP3h7rjYGObBPC0MdFww1FpuUl9gfM82zsjsZTOP5OhplY0eOVUSG+XdWDEs=
+  app: rocky-escarpment-51208
+  on:
+    repo: cjwoods89/marvel-react-redux
